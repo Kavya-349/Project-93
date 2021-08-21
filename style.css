@@ -1,0 +1,18 @@
+body {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover  ;
+}
+#logo {
+    width: 40px;
+    height: 40px;
+}
+.login_div {
+    border-top: 15px solid pink;
+    border-left: 15px solid pink;
+    border-right: 15px solid pink;
+    border-bottom: 15px solid pink;
+    margin-left: 380px;
+    border-style: ridge;
+    
+}
