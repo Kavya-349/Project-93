@@ -6,6 +6,7 @@ body {
 #logo {
     width: 40px;
     height: 40px;
+    border-radius: 20px;
 }
 .login_div {
     border-top: 15px solid pink;
@@ -14,5 +15,18 @@ body {
     border-bottom: 15px solid pink;
     margin-left: 380px;
     border-style: ridge;
+    
+}
+.login_div_2 {
+    border-top: 15px solid pink;
+    border-left: 15px solid pink;
+    border-right: 15px solid pink;
+    border-bottom: 15px solid pink;
+    margin-left: 200px;
+    border-style: ridge;
+    padding-bottom: 10px;    
+}
+#room_names {
+    background-color: white;
     
 }

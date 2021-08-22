@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            School ChatApp
+        </title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="kwitter_room.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+        <center>
+            <button onclick="logout()" style="float: right;" class="glyphicon glyphicon-log-out btn btn-danger"> Logout</button>
+            <br><br><br>
+            <h1 style="font-weight: bold; color: red;" class="header">Lets Chat
+                <sup>
+                    <img id="logo" src="logo.png">
+                </sup>
+            </h1>
+
+            <div class="col-lg-8 col-md-6 col-sm-6 col-xs-11 login_div_2">
+                <label>Add Room name : </label>
+                <input class="form-control" id="room_input" type="text" placeholder="Room Name"> 
+                <br> 
+                <button class="btn btn-primary" onclick="addRoom()">Add Room</button>   
+                <h3 id="room_names">#TRENDINGROOMS</h3>
+            </div>
+        </center>
+        </div>
+    </body>
+</html>
