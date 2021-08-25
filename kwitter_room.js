@@ -11,12 +11,10 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-
 function addRoom() {
     room_name = document.getElementById("room_input").value;
     localStorage.setItem("Room Name", room_name);
-
-    firebase.database().rel("/").child(room_name).update({
-        purpose: "add room name"
+    firebase.database().ref("/").child(room_name).update({
+        purpose: "adding room name"
     });
 }
